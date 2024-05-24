@@ -1,8 +1,7 @@
 {
   "name": "metamake",
   "version": "1.0.0",
-  "description": "make meta tags quickly and with accuracy to optimize 
-SEO",
+  "description": "make meta tags with accuracy to optimize SEO",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,8 +27,7 @@ SEO",
 32x32" },
     { "src": "/icon-192.png", "type": "image/png", "sizes": "192x192" },
     { "src": "/icon-512.png", "type": "image/png", "sizes": "512x512" },
-    { "src": "/icon-192-maskable.png", "type": "image/png", "sizes": 
-"192x192", "purpose": "maskable" },
+    { "src": "/icon-192-maskable.png", "type": "image/png", "sizes": "192x192", "purpose": "maskable" },
     { "src": "/icon-512-maskable.png", "type": "image/png", "sizes": 
 "512x512", "purpose": "maskable" }
   ]
