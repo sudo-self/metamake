@@ -1,0 +1,109 @@
+body {
+          font-family: Arial, sans-serif;
+          background-color: #00022e;
+          margin: 0;
+          padding: 0;
+      }
+
+      .container {
+          display: flex;
+          justify-content: space-between;
+          padding: 20px;
+      }
+
+      .left-container,
+      .right-container {
+          flex: 1;
+          padding: 20px;
+          background-color: #a1a1a1;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .left-container {
+          background-color: #464964;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          text: white;
+      }
+
+      .right-container {
+          background-color: #464964;
+          margin-left: 20px;
+          color: white;
+      }
+
+      .input-container {
+          padding: 20px;
+      }
+
+      .input-container label {
+          display: block;
+          margin-bottom: 10px;
+      }
+
+      .input-container input,
+      .input-container textarea {
+          width: calc(100% - 40px);
+          padding: 10px;
+          margin-bottom: 20px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+      }
+
+      .preview-container {
+          padding: 20px;
+      }
+
+      .preview-container h2 {
+          margin-top: 0;
+      }
+
+      .preview-container code {
+          display: block;
+          background-color: #45444d;
+          padding: 10px;
+          border-radius: 5px;
+          margin-top: 10px;
+      }
+
+      .copy-button {
+          margin-top: 10px;
+          padding: 10px 20px;
+          background-color: #befdb7;
+          color: black;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+      }
+
+      .copy-button:hover {
+          background-color: #45a049;
+      }
+
+      .code-meta {
+          color: #f6e2ec;
+      }
+
+      .code-property {
+          color: #2ECC40;
+      }
+
+      .code-content {
+          color: #b2ec5d;
+      }
+
+      #ogImagePreview {
+          max-width: 100%;
+          height: auto;
+          border-radius: 5px;
+          margin-top: 20px;
+      }
+
+      footer {
+          text-align: center;
+          margin-top: 20px;
+          color: #777;
+      }
